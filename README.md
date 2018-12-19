@@ -53,6 +53,8 @@ Options include:
 }
 ```
 
+__Note:__ Bootstrap nodes are instances of [dht-rpc-bootstrap](https://github.com/mafintosh/dht-rpc-bootstrap)
+
 #### `net.join(topic[, options])`
 
 Join the swarm for the given topic. This will cause peers to be discovered for the topic (`'peer'` event). Connections will automatically be created to those peers (`'connection'` event).
